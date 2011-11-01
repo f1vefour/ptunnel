@@ -45,7 +45,7 @@
 
 //	Includes
 #ifndef WIN32
-  	#include	<sys/unistd.h>
+  	#include	<unistd.h>
   	#include	<sys/types.h>
   	#include	<sys/socket.h>
   	#include	<netinet/in.h>
@@ -53,7 +53,7 @@
   	#include	<netdb.h>
 	#include	<pthread.h>
 	#include	<errno.h>
-	#include	<net/ethernet.h>
+	#include	"ethernet.h"
 	#include	<syslog.h>
 	#include	<pwd.h>
 	#include	<grp.h>
